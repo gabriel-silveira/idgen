@@ -2,4 +2,5 @@
 require('inc/inc.php');
 
 $ident = new Identificador();
-print($ident->id);
+$ident->gerar();
+print($ident->obter_id());
