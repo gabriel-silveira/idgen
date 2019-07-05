@@ -3,11 +3,12 @@
 namespace Database;
 
 class MySQL {
-    
-    const HOST = '127.0.0.1';
-    const USER = 'root';
-    const PASS = 'jc9efo6a';
-    const DB = 'test';
+
+    // utilizar dot-env aqui...
+    const HOST = '?.?.?.?';
+    const USER = '?';
+    const PASS = '?';
+    const DB = '?';
     
     public function __construct() {
         try {
